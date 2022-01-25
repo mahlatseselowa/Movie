@@ -8,6 +8,7 @@ import { AboutComponent } from './components/about/about.component';
 import { CastteamComponent } from './components/castteam/castteam.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { UpcomingComponent } from './components/upcoming/upcoming.component';
+import { RegisterComponent } from './components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { UpcomingComponent } from './components/upcoming/upcoming.component';
     AboutComponent,
     CastteamComponent,
     NavbarComponent,
-    UpcomingComponent
+    UpcomingComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
